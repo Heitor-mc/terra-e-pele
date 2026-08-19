@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raiane Off-line | Terra & Pele</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #FAF6ED;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      color: #314227;
+      text-align: center;
+      padding: 24px;
+    }
+    .wrapper {
+      max-width: 440px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .gif-container {
+      width: 100%;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      margin-bottom: 24px;
+    }
+    .gif-inner {
+      width: 100%;
+      height: 0;
+      padding-bottom: 56%;
+      position: relative;
+    }
+    .gif-inner iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+    h1 {
+      font-size: 1.75rem;
+      margin-bottom: 12px;
+      line-height: 1.2;
+    }
+    p {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #556b2f;
+      margin-bottom: 28px;
+    }
+    a.btn-voltar {
+      display: inline-block;
+      padding: 12px 32px;
+      background-color: #314227;
+      color: #FAF6ED;
+      text-decoration: none;
+      border-radius: 9999px;
+      font-weight: 600;
+      transition: transform 0.2s, opacity 0.2s;
+    }
+    a.btn-voltar:hover {
+      opacity: 0.9;
+      transform: scale(1.03);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="wrapper">
+    <div class="gif-container">
+      <div class="gif-inner">
+        <iframe 
+          src="https://giphy.com/embed/g01ZnwAUvutuK8GIQn" 
+          allowFullScreen>
+        </iframe>
+      </div>
+    </div>
+
+    <h1>Cadê o Instagram?</h1>
+    <p>A gente procurando o perfil da Raiane... Ela não usa redes sociais, prefere cuidar da pele com a natureza! 🌿🤷‍♂️</p>
+
+    <a href="/" class="btn-voltar">Voltar para o site</a>
+  </div>
+
+</body>
+</html>

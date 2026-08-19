@@ -266,8 +266,7 @@ const equipe = [
   { name: "Arthur Brito", role: "Integrante", instagram: "https://www.instagram.com/artturw7/" },
   { name: "Walmir Junior", role: "Integrante", instagram: "https://www.instagram.com/juniio_rlq/" },
   { name: "Gabriel Brito", role: "Integrante", instagram: "https://www.instagram.com/gabriell_souza074/" },
-  { name: "Raiane Marques", role: "Integrante", instagram: "https://www.instagram.com/raywz0_/" },
-  { name: "Vitor", role: "Integrante", instagram: "https://instagram.com" },
+  { name: "Raiane Marques", role: "Integrante", instagram: "/raiane/index.html" },
   { name: "Williane Jordão", role: "Integrante", instagram: "https://www.instagram.com/sillvx._.williane/" },
   { name: "David Riquelme", role: "Integrante", instagram: "https://www.instagram.com/bigzinn_074/" },
 ];
